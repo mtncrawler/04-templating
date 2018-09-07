@@ -12,7 +12,7 @@
     <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
 
     <!--
-      TODO: Add a script tag to hold the Handlebars template.
+      Done: Add a script tag to hold the Handlebars template.
         - Be sure to give it a meaningful id attribute.
         - Move your old template structure to here. Remember that this template needs to have the same structure as the old one!
         - Insert placeholder keys.
@@ -56,14 +56,14 @@
           </ul>
         </div>
       </section>
-
+    <!--handlebars template-->
      <script id="article-template" type="text/x-handlebars-template">
-        <article class="template" data-category="{{category}}" data-author= "{{author}}">
+        <article data-category="{{category}}" data-author= "{{author}}">
             <header>
               <h1>{{title}}</h1>
               <div>
                 By <address><a href={{authorUrl}}>{{author}}</a></address>
-                published <time datetime="2000-01-01">{{publishedOn}}</time>
+                <time datetime="2000-01-01">{{publishStatus}}</time>
               </div>
             </header>
             <section class="article-body">
@@ -72,8 +72,7 @@
             <a href="#" class="read-on">Read on &rarr;</a>
           </article>
       </script>
-        
-
+      
       <section id="about" class="tab-content">
         <header>
           Welcome to my Blog

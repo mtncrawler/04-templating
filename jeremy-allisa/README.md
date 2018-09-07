@@ -1,19 +1,20 @@
 # Templating
 
 **Author**: Jeremy Beck and Allisa LeBeuf
-**Version**: 1.2.0 (increment the patch/fix version number up if you make more commits past your first submission)
+**Version**: 1.3.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+Render articles consistently using handlebars tmeplating engine. Refactor existing functions to arrow functions where possible.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+Clone the starter code, create a branch, code
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+HTML, CSS, JS, jQuery library, handlebars.js
 
 ## Change Log
 
+09-07-2018 11:02 Fixed author and category filter, refactored to arrow functions
 09-07-2018 10:30am Articles displaying first paragraphs, read more/less functioning.
 09-07-2018 9:52am Implemented Handlebars to populate the DOM with articles.
 
